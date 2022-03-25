@@ -1,9 +1,9 @@
-const appointmentsHandler = (state = [{"id": 0, "description":"Sample Appointment"}], actions) => {
+const appointmentsHandler = (state = [], actions) => {
     switch (actions.type) {
         default:
             return state
         case "get_appointments":
-            return state.concat(actions.payload)
+            return state = actions.payload
             /*
 
         case "delete_task":
