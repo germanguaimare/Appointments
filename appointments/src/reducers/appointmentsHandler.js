@@ -4,16 +4,7 @@ const appointmentsHandler = (state = [], actions) => {
             return state
         case "get_appointments":
             return state = actions.payload
-            /*
 
-        case "delete_task":
-            return state.filter(key => key != action.payload)
-        case "edit_task":
-                let toEdit = document.getElementById(action.payload)
-                let newItem = document.createElement('text_input')
-                newItem.textContent = "Probando"
-            return toEdit.replaceChild(newItem, toEdit)
-        */
     }
 }
 

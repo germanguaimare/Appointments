@@ -4,3 +4,4 @@ export const getAppointments = (appointments) => {
         payload: appointments
     }
 }
+
